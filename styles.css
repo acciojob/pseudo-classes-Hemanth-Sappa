@@ -10,15 +10,15 @@
 #para4 {
 	color: red;
 }
+.list:nth-child(even) {
+	background-color: grey;
+}
+.list:nth-child(odd) {
+	background-color: pink;
+}
 .list:first-child {
 	background-color: white;
 }
 .list:last-child {
 	background-color: white;
-}
-.list:nth-child(2) {
-	background-color: grey;
-}
-.list:nth-child(3) {
-	background-color: pink;
 }
